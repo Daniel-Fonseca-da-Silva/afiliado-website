@@ -6,51 +6,52 @@ const Banner = () => {
       id="home"
       className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4"
     >
-      <motion.h3
+      <motion.p
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.6 }}
-        className="text-lg font-titleFont tracking-wide text-textGreen"
+        transition={{ duration: 1, delay: 0.1 }}
+        className="text-2xl ml-10 font-titleFont font-bold tracking-wide"
       >
-        Hi, I am
-      </motion.h3>
+        MÉTODO
+      </motion.p>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.6 }}
-        className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
+        transition={{ duration: 1, delay: 0.2 }}
+        className="text-8xl -mt-10 font-titleFont font-bold tracking-wide text-textOrangeStrong"
       >
-        Daniel Fonseca.{" "}
-        <span className="text-textDark mt-2 lgl:mt-4 text-4xl">
-          Innovation and commitment.
-        </span>
+        CVL
       </motion.h1>
       <motion.p
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.8 }}
-        className="text-base md:max-w-[650px] text-textDark font-medium"
+        transition={{ duration: 1, delay: 0.3 }}
+        className="text-4xl font-bodyFont font-bold tracking-wide -mt-5"
       >
-        {" "}
-        I am a highly skilled developer with over 5 years of experience in both
-        back-end and front-end development, and I have a wide range of skills in
-        different programming technologies. I have in-depth knowledge of
-        programming languages such as Java and TypeScript, and frameworks such
-        as Spring, Angular, Next, and NestJS.{" "}
-        <a href="https://github.com/Daniel-Fonseca-da-Silva" target="_blank">
-          <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-hidden group">
-            Know More
-            <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
-          </span>
-        </a>
+        Aprenda na prática a comprar, <br /> vender e{" "}
+        <span className="text-textOrangeLight">
+          enriquecer com <br /> segurança
+        </span>{" "}
+        em criptomoedas
+      </motion.p>
+      <motion.p
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1, delay: 0.4 }}
+        className="text-3xl font-bodyFont tracking-wide font-light -mt-5"
+      >
+        Agora você poderá ter acesso ao método <br /> desenvolvido após{" "}
+        <span className="text-textOrangeLight">mais de uma década</span> <br />{" "}
+        e{" "}
+        <span className="text-textOrangeStrong">centenas de arrematações.</span>
       </motion.p>
       <motion.button
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.9 }}
-        className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+        transition={{ duration: 1, delay: 0.5 }}
+        className="w-2/5 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide bg-gradient-to-r from-btnColor1 to-btnColor2 hover:from-btnColor2 hover:to-btnColor1 font-bold py-2 px-4 animate-bounce"
       >
-        Check my company!
+        QUERO LUCRAR COM CRIPTO
       </motion.button>
     </section>
   );
