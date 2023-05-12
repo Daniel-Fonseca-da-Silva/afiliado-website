@@ -24,17 +24,19 @@ module.exports = {
         xl: "1280px",
       },
       fontFamily: {
-        bodyFont: ["Bruno Ace SC", "sans-serif"],
-        titleFont: ["Montserrat", "sans-serif"],
+        bodyFont: ["Barlow Condensed", "sans-serif"],
+        titleFont: ["Roboto", "sans-serif"],
       },
       boxShadow: {
           navBar: "0 10px 30px -10px rgba(2, 12, 27, 0.7)",
       },
       colors: {
-        bodyColor: "#2c4b77",
-        textGreen: "#64ffda",
-        textLight: "#ccd6f6",
-        textDark: "#8892b0",
+        bodyColor: "#191825",
+        textOrangeLight: "#ff8c35",
+        textOrangeStrong: "#FC4F00",
+        btnColor1: "#FC4F00",
+        btnColor2: "#e80a03",
+        textLight: "#efefef",
         hoverColor: "rgba(100, 255, 218, 0.1)"
       },
     },
