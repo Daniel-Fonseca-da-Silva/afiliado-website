@@ -3,6 +3,7 @@ import Archive from "@/components/Archive";
 import Banner from "@/components/Banner";
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
+import FirstContainer from "@/components/FirstContainer";
 import Footer from "@/components/Footer";
 import LeftSide from "@/components/LeftSide";
 import Navbar from "@/components/Navbar";
@@ -21,7 +22,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="../public/assets/images/dafon-logo-white.png" />
       </Head>
-      <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60">
+      <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden scrollbar scrollbar-track-btnColor2 scrollbar-thumb-btnColor1">
         <Navbar />
         <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
           {/* <motion.div
@@ -32,10 +33,11 @@ export default function Home() {
           >
             <LeftSide />
           </motion.div> */}
-          <div className="h-[90vh] w-full mx-auto p-4">
+          <div className="w-screen h-screen">
             <Banner />
-            {/* <About />
-            <Experience />
+            <FirstContainer />
+            {/* <About /> */}
+            {/* <Experience />
             <Projects />
             <Archive />
             <Contact />

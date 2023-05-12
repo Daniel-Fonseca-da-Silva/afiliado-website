@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4"
+      className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4 "
     >
       <motion.p
         initial={{ y: 10, opacity: 0 }}
@@ -49,7 +49,7 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
-        className="w-2/5 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide bg-gradient-to-r from-btnColor1 to-btnColor2 hover:from-btnColor2 hover:to-btnColor1 font-bold py-2 px-4 animate-bounce"
+        className="w-2/5 h-14 text-sm font-titleFont  rounded-md text-textGreen tracking-wide bg-gradient-to-r from-btnColor1 to-btnColor2 hover:from-btnColor2 hover:to-btnColor1 font-bold py-2 px-4 animate-bounce border border-blue-500"
       >
         QUERO LUCRAR COM CRIPTO
       </motion.button>
