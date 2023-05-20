@@ -17,7 +17,7 @@ const FourthContainer = () => {
             </motion.div>
           </div>
           <div className="xs:pl-0 sm:pl-0 md:pl-10 lg:pl-32 xs:py-10 sm:py-10 md:py-0 sm:text-center">
-            <p className="text-4xl font-bodyFont tracking-wide leading-normal">
+            <p className="lg:text-4xl xs:text-base sm:text-xl font-bodyFont tracking-wide leading-normal">
               <span className="font-bold">O Método CVL</span> pode te ajudar a
               iniciar nesse mercado com um plano detalhado para comprar tudo na
               Binance.
