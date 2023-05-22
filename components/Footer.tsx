@@ -1,49 +1,43 @@
-import {
-  BsGithub,
-  BsLinkedin,
-  BsInstagram,
-  BsWhatsapp,
-  BsDiscord,
-  BsGlobeAmericas,
-} from "react-icons/bs";
-
 const Footer = () => {
   return (
-    <div className="hidden mdl:inline-flex xl:hidden items-center justify-center w-full py-6 gap-4">
-      <a href="https://wa.me/5524981579339" target="_blank">
-        <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-          <BsWhatsapp />
-        </span>
-      </a>
-      <a href="https://discord.gg/Q7YjW9RY" target="_blank">
-        <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-          <BsDiscord />
-        </span>
-      </a>
-      <a href="https://github.com/Daniel-Fonseca-da-Silva" target="_blank">
-        <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-          <BsGithub />
-        </span>
-      </a>
-      <a
-        href="https://www.linkedin.com/in/daniel-f-s-developer/"
-        target="_blank"
-      >
-        <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-          <BsLinkedin />
-        </span>
-      </a>
-      <a href="#" target="_blank">
-        <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-          <BsInstagram />
-        </span>
-      </a>
-      <a href="https://dafon.dev/en/solucoes-english/" target="_blank">
-        <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-          <BsGlobeAmericas />
-        </span>
-      </a>
-    </div>
+    <section className="w-full mx-auto py-10 mdl:py-24 flex flex-col items-center gap-4 lgl:gap-8 mdl:px-10 xl:px-4 transition-300 shadow-2xl bg-footerColor">
+      <div className="w-10/12 -mb-10 -mt-10">
+        <div className="flex flex-col items-center">
+          <p className="xs:text-sm sm:text-sm md:text-base lg:text-lg xl:text-3xl font-bodyFont tracking-wide uppercase text-center">
+            COPYRIGHT 2023 -{" "}
+            <a
+              href="https://dafon.dev/pt/main/"
+              className="text-textSpecialLinkColor hover:text-btnColor2"
+            >
+              @Dafon
+            </a>{" "}
+            - TODOS OS DIREITOS RESERVADOS
+          </p>
+          <p className="xs:text-sm sm:text-sm md:text-base lg:text-lg xl:text-3xl md:text-basefont-bodyFont tracking-wide uppercase text-center">
+            <a
+              href=""
+              className="text-textSpecialLinkColor hover:text-btnColor2"
+            >
+              Termos de uso
+            </a>{" "}
+            |{" "}
+            <a
+              href=""
+              className="text-textSpecialLinkColor hover:text-btnColor2"
+            >
+              Política de Privacidade
+            </a>{" "}
+            |{" "}
+            <a
+              href="mailto:enricoganchiel@gmail.dev"
+              className="text-textSpecialLinkColor hover:text-btnColor2"
+            >
+              contato
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
   );
 };
 
