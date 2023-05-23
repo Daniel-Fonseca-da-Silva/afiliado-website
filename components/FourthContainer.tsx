@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const FourthContainer = () => {
   return (
-    <section className="w-full mx-auto py-10 mdl:py-24 flex flex-col items-center gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
-      <div className="w-10/12 -mb-10 -mt-10">
+    <section className="w-full mx-auto mdl:py-24 flex flex-col items-center gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
+      <div className="w-10/12 my-10">
         <div className="flex flex-col md:flex-row justify-center">
           <div className="mx-auto">
             <motion.div
@@ -25,6 +25,7 @@ const FourthContainer = () => {
           </div>
         </div>
       </div>
+      <div className="w-1/5 border border-t border-gray-700"></div>
     </section>
   );
 };

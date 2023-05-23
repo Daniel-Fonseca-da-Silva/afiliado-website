@@ -4,7 +4,7 @@ import Image from "next/image";
 const Benefits = () => {
   return (
     <section className="w-full mx-auto py-10 mdl:py-24 flex flex-col items-center gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
-      <div className="w-10/12 -mb-10 -mt-10 flex flex-col items-center">
+      <div className="w-10/12 my-10 flex flex-col items-center">
         <h2 className="lg:text-4xl xs:text-sm sm:text-sm md:text-2xl font-bodyFont tracking-wide text-center">
           E tem mais, tudo o que é comprado nessas condições pode ser vendido
           com <span className="underline">altíssima margem de lucro</span>, como
@@ -40,6 +40,7 @@ const Benefits = () => {
           tudo o que você pode conquistar através desse mercado.
         </h2>
       </div>
+      <div className="w-1/5 border border-t border-gray-700"></div>
     </section>
   );
 };

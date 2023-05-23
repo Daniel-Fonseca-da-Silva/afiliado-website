@@ -29,8 +29,8 @@ const List = () => {
     },
   ];
   return (
-    <section className="w-full mx-auto py-10 mdl:py-24 flex flex-col items-center gap-4 lgl:gap-8 mdl:px-10 xl:px-4 mt-10">
-      <div className="w-10/12 -mb-10 -mt-10 flex flex-col items-center">
+    <section className="w-full mx-auto py-10 mdl:py-24 flex flex-col items-center gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
+      <div className="w-10/12 flex flex-col items-center">
         <div className="block max-w-container p-6 bg-gradient-to-r from-black to-gray-900 transition-300  rounded-lg border-1 shadow-md border-btnColor1 drop-shadow-sm shadow-btnColor1">
           <h2 className="mb-2 xs:text-xl sm:text-xl md:text-xl lg:text-4xl font-bold tracking-tight bg-gradient-to-r from-btnYellowGradient to-btnColor2 text-transparent bg-clip-text text-center">
             TUDO QUE VOCÊ RECEBE AO SE <br></br> MATRICULAR PARA O MÉTODO CVL:

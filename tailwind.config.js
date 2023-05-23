@@ -37,6 +37,7 @@ module.exports = {
         textPriceColor: "#1ebed7",
         textSpecialLinkColor: "#a52a53",
         textSpecialLinkColorHover: "#1ebed7",
+        textGray: "#ccc",
         footerColor: "#13131b",
         darkBanner: "#090909",
         btnColor1: "#FC4F00",

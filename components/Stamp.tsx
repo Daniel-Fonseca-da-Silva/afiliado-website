@@ -7,17 +7,15 @@ const Stamp = () => {
       <div className="w-10/12 -mb-10 -mt-10">
         <div className="flex flex-col md:flex-row justify-center">
           <div className="mx-auto md:w-2/4">
-            <div>
-              <div className="px-10 py-5 lg:mx-20">
-                <div>
-                  <Image
-                    className="w-full"
-                    src={garantia}
-                    width={500}
-                    height={500}
-                    alt="Criptomoedas"
-                  />
-                </div>
+            <div className="px-10 py-5 lg:mx-20">
+              <div>
+                <Image
+                  className="w-full"
+                  src={garantia}
+                  width={500}
+                  height={500}
+                  alt="Criptomoedas"
+                />
               </div>
             </div>
           </div>

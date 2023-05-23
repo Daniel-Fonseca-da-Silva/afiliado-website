@@ -1,16 +1,19 @@
-import About from "@/components/About";
-import Archive from "@/components/Archive";
+import AboutMe from "@/components/AboutMe";
 import Banner from "@/components/Banner";
+import Benefits from "@/components/Benefits";
 import Contact from "@/components/Contact";
-import Experience from "@/components/Experience";
+import Faq from "@/components/Faq";
 import FirstContainer from "@/components/FirstContainer";
 import Footer from "@/components/Footer";
-import LeftSide from "@/components/LeftSide";
+import FourthContainer from "@/components/FourthContainer";
+import Gifts from "@/components/Gifts";
+import List from "@/components/List";
 import Navbar from "@/components/Navbar";
-import Projects from "@/components/Projects";
-import RightSide from "@/components/RightSide";
-import SubFooter from "@/components/SubFooter";
-import { motion } from "framer-motion";
+import SecondContainer from "@/components/SecondContainer";
+import Slider from "@/components/Slider";
+import Stamp from "@/components/Stamp";
+import StepLine from "@/components/StepLine";
+import ThirdContainer from "@/components/ThirdContainer";
 import Head from "next/head";
 
 export default function Home() {
@@ -23,35 +26,25 @@ export default function Home() {
         <link rel="icon" href="../public/assets/images/dafon-logo-white.png" />
       </Head>
       <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden scrollbar scrollbar-track-btnColor2 scrollbar-thumb-btnColor1">
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
-          {/* <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.5 }}
-            className="hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0"
-          >
-            <LeftSide />
-          </motion.div> */}
           <div className="w-screen h-screen">
             <Banner />
             <FirstContainer />
-            {/* <About /> */}
-            {/* <Experience />
-            <Projects />
-            <Archive />
+            <SecondContainer />
+            <StepLine />
+            <ThirdContainer />
+            <FourthContainer />
+            <Slider />
+            <Benefits />
+            <Gifts />
+            <List />
+            <Stamp />
+            <AboutMe />
+            <Faq />
             <Contact />
             <Footer />
-            <SubFooter /> */}
           </div>
-          {/* <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.5 }}
-            className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
-          >
-            <RightSide />
-          </motion.div> */}
         </div>
       </main>
     </>

@@ -1,17 +1,27 @@
-import logo from "./images/dafon-logo-white.png";
-import profileImg from "./images/dev-founder.jpeg";
-import siteImg from "./images/company-dafon.png";
-import buildingImg from "./images/building.jpg";
-import spaceImg from "./images/space-discovery.png";
-import dentalImg from "./images/dental.png";
-import dafonImg from "./images/dafon.png";
+import criptomoeda from "./images/worldspectrum.jpg";
+import metodocvl from "./images/metodoCVL.png";
+import depo1 from "./images/depoimento-1.webp";
+import depo2 from "./images/depoimento-2.webp";
+import lucro from "./images/lucro.jpg";
+import muitolucro from "./images/muito-lucro.jpg";
+import bonus1 from "./images/cripto-girl.jpg";
+import bonus2 from "./images/dinheiro-carteira.jpg";
+import bonus3 from "./images/sempre-ganhando.jpg";
+import bonus4 from "./images/ganhando-muito.jpg";
+import garantia from "./images/garantia-cvl.svg";
+import aboutme from "./images/aboutme.png";
 
 export {
-  logo,
-  profileImg,
-  siteImg,
-  buildingImg,
-  spaceImg,
-  dentalImg,
-  dafonImg,
+  criptomoeda,
+  metodocvl,
+  depo1,
+  depo2,
+  lucro,
+  muitolucro,
+  bonus1,
+  bonus2,
+  bonus3,
+  bonus4,
+  garantia,
+  aboutme,
 };

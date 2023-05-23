@@ -7,7 +7,7 @@ const FirstContainer = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.7 }}
-        className="w-10/12 -mb-10 -mt-10"
+        className="w-10/12 my-10"
       >
         <h2 className="font-titleFont font-bold tracking-wide text-center uppercase xs:text-lg sm:text-lg md:text-4xl lg:text-4xl xs:pt-5 sm:pt-5">
           Um treinamento prático para aprender a investir com tudo em cripto.

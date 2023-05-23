@@ -29,7 +29,7 @@ const Banner = () => {
         className="lg:text-4xl font-bodyFont font-bold tracking-wide -mt-5 md:px-0 lg:px-0"
       >
         Aprenda na prática a comprar, <br /> vender e{" "}
-        <span className="text-btnColor1">
+        <span className="bg-gradient-to-r from-btnYellowGradient to-btnColor2 text-transparent bg-clip-text text-center">
           enriquecer com <br /> segurança
         </span>{" "}
         em criptomoedas

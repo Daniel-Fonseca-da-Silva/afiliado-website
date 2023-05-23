@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Slider = () => {
   return (
-    <section className="w-full mx-auto py-10 mdl:py-24 flex flex-col items-center gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
-      <div className="w-10/12 -mb-10 -mt-10 flex flex-col items-center">
+    <section className="w-full mx-auto mdl:py-24 flex flex-col items-center gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
+      <div className="w-10/12 my-10 flex flex-col items-center">
         <h2 className="lg:text-4xl xs:text-base sm:text-xl font-bodyFont font-bold tracking-wide text-center uppercase">
           TESTADO POR MAIS DE{" "}
           <span className="bg-btnColor2">2.500 PESSOAS!</span>
@@ -91,6 +91,7 @@ const Slider = () => {
           </button>
         </div>
       </div>
+      <div className="w-1/5 border border-t border-gray-700"></div>
     </section>
   );
 };

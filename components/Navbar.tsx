@@ -1,5 +1,3 @@
-import { logo } from "@/public/assets";
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
